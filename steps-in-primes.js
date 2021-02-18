@@ -13,7 +13,7 @@ function step(stepGoal, startNumber, endNumber) {
   const isNotPrimeNumber = number => !isPrime(number)
   
 
-  for (let index = startNumber; index < endNumber; index++) {
+  for (let index = startNumber; index <= endNumber; index++) {
     
     if(isNotPrimeNumber(index)) continue;
 
